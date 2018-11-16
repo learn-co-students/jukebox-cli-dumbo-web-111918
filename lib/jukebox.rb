@@ -1,3 +1,8 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/jukebox"
+require_relative "./advanced_jukebox.rb"
+
 songs = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
@@ -10,3 +15,4 @@ songs = [
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 
+run(songs)
